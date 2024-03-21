@@ -14,7 +14,7 @@
         "@docusaurus/preset-classic": ">=3",
         "react": ">=16"
     },
-    "name": "docusaurus-codedoc",
+    "name": "@elfsquad/docusaurus-plugin-codedoc",
     "author": "Elfsquad",
     "devDependencies": {
         "@docusaurus/types": "^3.1.1",

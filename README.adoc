@@ -1,16 +1,21 @@
-# 🦖 Docusaurus Codedoc Plugin 📚
+= 🦖 Docusaurus Codedoc Plugin 📚 
+:toc: macro
+:toc-title:
+:toclevels: 3
+
+toc::[]
 
 A plugin for Docusaurus that lets you 📝 write guides on larger chunks of code and highlights 🌟 the relevant parts.
 
-![Example](./assets/example.gif)
+image:assets/example.gif[]
 
-## 💾 Installation 
+== 💾 Installation 
 
 ```bash
 npm install --save @elfsquad/docusaurus-plugin-codedoc
 ```
 
-## 🛠️ Usage 
+== 🛠️ Usage 
 
 The codedoc plugin exports 2 components:
 * **CodeDoc**: Parent container element 📦
@@ -62,3 +67,17 @@ function incididunt(ipsum, ut = 1) {
 
 </CodeDoc>
 ```
+
+== 🤝 Support
+
+If you're having a bumpy ride 🎢 or just want to share some love ❤️, visit the GitHub repository:
+
+- https://github.com/Elfsquad/docusaurus-plugin-codedoc
+
+== 🌱 Contributing
+
+Got a cool idea or a bug fix? Contributions are more than welcome! Feel free to fork the repo, make your changes, and submit a pull request 🤲.
+
+== 📄 License
+
+This project struts under the AGPL-3.0 license - because sharing is caring 💖.

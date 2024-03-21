@@ -80,4 +80,4 @@ Got a cool idea or a bug fix? Contributions are more than welcome! Feel free to 
 
 == 📄 License
 
-This project struts under the AGPL-3.0 license - because sharing is caring 💖.
+This project struts under the MIT license - because sharing is caring 💖.

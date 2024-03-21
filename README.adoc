@@ -25,6 +25,8 @@ The `CodeDocSection` component has a property `highlight` which indicates which 
 
 Example:
 ```jsx
+import { CodeDoc, CodeDocSection } from '@elfsquad/docusaurus-plugin-codedoc';
+
 <CodeDoc>
   <CodeDocSection highlight="{1-4}">
       ## Lorem ipsum dolor sit amet 📜

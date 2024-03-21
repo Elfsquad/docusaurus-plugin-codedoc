@@ -1,33 +1,33 @@
-# 🦖 Docusaurus Codedoc plugin 📖
+# 🦖 Docusaurus Codedoc Plugin 📚
 
-A plugin for Docusaurus that lets write guides on larger chunks of code and highlights the relevant parts.
+A plugin for Docusaurus that lets you 📝 write guides on larger chunks of code and highlights 🌟 the relevant parts.
 
 ![Example](./assets/example.gif)
 
-## Installation
+## 💾 Installation 
 
 ```bash
 npm install --save @elfsquad/docusaurus-plugin-codedoc
 ```
 
-## Usage
+## 🛠️ Usage 
 
 The codedoc plugin exports 2 components:
-* **CodeDoc**: Parent container element
-* **CodeDocSection**: Documentation section that highlights chunks of code
+* **CodeDoc**: Parent container element 📦
+* **CodeDocSection**: Documentation section that highlights 🖍️ chunks of code
 
-The `CodeDocSection` component has a property `highlight` which indicates which lines of code to highlight when the section is active. The input for the `highlight` is a [CodeBlock metadatastring](https://docusaurus.io/docs/markdown-features/code-blocks#highlighting-with-metadata-string).
+The `CodeDocSection` component has a property `highlight` which indicates which lines of code to highlight when the section is active. The input for the `highlight`✨ is a [CodeBlock metadatastring](https://docusaurus.io/docs/markdown-features/code-blocks#highlighting-with-metadata-string).
 
 Example:
 ```jsx
 <CodeDoc>
   <CodeDocSection highlight="{1-4}">
-      ## Lorem ipsum dolor sit amet
+      ## Lorem ipsum dolor sit amet 📜
       consectetur adipiscing elit. Nunc consectetur nisl nec nunc condimentum pellentesque. Morbi ut mauris vel tellus laoreet cursus id eget purus.
   </CodeDocSection>
 
   <CodeDocSection highlight="{1,8-10,13-16}">
-      ## Lorem ipsum dolor sit amet
+      ## Lorem ipsum dolor sit amet 📜
       consectetur adipiscing elit. Nunc consectetur nisl nec nunc condimentum pellentesque. Morbi ut mauris vel tellus laoreet cursus id eget purus.
   </CodeDocSection>
 

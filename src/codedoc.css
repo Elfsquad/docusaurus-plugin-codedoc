@@ -1,0 +1,23 @@
+
+.codedoc-container {
+    gap: 2rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    display: grid;
+}
+
+.codedoc-section {
+    padding: var(--ifm-global-spacing);
+    border-radius: var(--ifm-card-border-radius);
+    cursor: pointer;
+}
+
+    .codedoc-section.active {
+        background: var(--ifm-card-background-color);
+        border: 1px solid var(--ifm-color-emphasis-200)
+    }
+
+.codedoc-code-container{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    position: sticky;   
+}

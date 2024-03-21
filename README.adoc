@@ -71,16 +71,15 @@ function incididunt(ipsum, ut = 1) {
 </CodeDoc>
 ```
 
-== 🤝 Support
+== 🤝 Contributing
 
-If you're having a bumpy ride 🎢 or just want to share some love ❤️, visit the GitHub repository:
+We welcome contributions! Please feel free to fork the repository, make your changes, and submit a pull request.
 
-- https://github.com/Elfsquad/docusaurus-plugin-codedoc
+== ⚖️ License
 
-== 🌱 Contributing
+Licensed under MIT. See the `LICENSE` file in the repository for full details.
 
-Got a cool idea or a bug fix? Contributions are more than welcome! Feel free to fork the repo, make your changes, and submit a pull request 🤲.
+== ✨ Acknowledgements
 
-== 📄 License
+A big thank you to everyone who contributes to the ongoing development and maintenance of this action.
 
-This project struts under the MIT license - because sharing is caring 💖.

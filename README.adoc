@@ -18,10 +18,11 @@ npm install --save @elfsquad/docusaurus-plugin-codedoc
 == 🛠️ Usage 
 
 The codedoc plugin exports 2 components:
-* **CodeDoc**: Parent container element 📦
-* **CodeDocSection**: Documentation section that highlights 🖍️ chunks of code
 
-The `CodeDocSection` component has a property `highlight` which indicates which lines of code to highlight when the section is active. The input for the `highlight`✨ is a [CodeBlock metadatastring](https://docusaurus.io/docs/markdown-features/code-blocks#highlighting-with-metadata-string).
+- **CodeDoc**: Parent container element 📦
+- **CodeDocSection**: Documentation section that highlights 🖍️ chunks of code
+
+The `CodeDocSection` component has a property `highlight` which indicates which lines of code to highlight when the section is active. The input for the `highlight`✨ is a https://docusaurus.io/docs/markdown-features/code-blocks#highlighting-with-metadata-string[CodeBlock metadatastring].
 
 Example:
 ```jsx
